@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Rest Assured API Testing Suite">
+	
+	
+	<listeners>
+		<listener class-name="extentReportListener.ExtentReportListener" />
+	</listeners>
+	
+	<test name="FreeCRM Automation Testing Suite">
+		<classes>
+			<class name="BookTest.Book_GET_Request" />
+			<class name="BookTest.GET_Validating_JSON_Response" />
+			<class name="BookTest.post_Book" />
+			<class name="BookTest.Print_All_Headers" />
+			<class name="BookTest.Validate_header" />
+			<class name="employeeTestCase.AddNewEmployee" />
+			<class name="employeeTestCase.getAllEmployees" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
